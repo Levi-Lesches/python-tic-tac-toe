@@ -1,4 +1,6 @@
-from my_mod import veripy, is_even
+from my_stuff.nums import is_even
+from my_stuff.misc import veripy
+
 length = [0, 1, 2]
 board = [list ("?" * 3) for n in length]
 players = ["X" , "O"]
